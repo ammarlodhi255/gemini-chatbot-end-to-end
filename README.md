@@ -29,10 +29,11 @@ A Gemini chatbot with chat history saving feature built in. Developed using Goog
    ```bash
    cd gemini-chatbot-end-to-end
    ```
-Install requirements
-```
-  pip install -r requirements.txt
-```
+3. Install requirements
+
+    ```
+    pip install -r requirements.txt
+    ```
 
 ### Usage
 
