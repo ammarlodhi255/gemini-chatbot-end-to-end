@@ -1,4 +1,4 @@
-# CPU-Scheduling-Simulator
+# Gemini Chat-bot
 
 ## Table of Contents
 - [Overview](#overview)
