@@ -34,7 +34,7 @@ A Gemini chatbot with chat history saving feature built in. Developed using Goog
     ```
     pip install -r requirements.txt
     ```
-4. Paste your Google Gemini API key inside env file [.env]
+4. Paste your Google Gemini API key inside env file (.env)
 
 ### Usage
 
