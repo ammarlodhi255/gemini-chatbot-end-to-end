@@ -46,7 +46,8 @@ streamlit run app.py
 
 ## Screenshots
 ![Home Interface](/imgs/1.png)
-![Chat Response and History](/imgs/2.png)
+![Chat Response](/imgs/2.png)
+![Chat History](/imgs/3.png)
 
 ## License
 
