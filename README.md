@@ -6,6 +6,7 @@
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Usage](#usage)
+- [Screenshots](#screenshots)
 - [License](#license)
 
 
@@ -42,6 +43,10 @@ A Gemini chatbot with chat history saving feature built in. Developed using Goog
 ```
 streamlit run app.py
 ```
+
+## Screenshots
+![Home Interface](/imgs/1.png)
+![Chat Response and History](/imgs/2.png)
 
 ## License
 
