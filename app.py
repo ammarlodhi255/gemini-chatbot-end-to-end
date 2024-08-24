@@ -25,6 +25,7 @@ if submit and input:
     st.session_state['chat_history'].append(("You", input))
     st.subheader("The response is")
 
+    # Show messages in chunks rather than waiting for the entire response.
     for chunk in response:
         st.write(chunk.text)
         st.session_state['chat_history'].append(("Bot", chunk.text))
