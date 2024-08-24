@@ -31,7 +31,6 @@ A Gemini chatbot with chat history saving feature built in. Developed using Goog
    cd gemini-chatbot-end-to-end
    ```
 3. Install requirements
-
     ```
     pip install -r requirements.txt
     ```
