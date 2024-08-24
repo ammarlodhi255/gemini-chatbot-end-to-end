@@ -9,7 +9,6 @@ def get_response(question):
     return response 
 
 # Initialize streamlit
-
 st.set_page_config(page_title="Q&A Demo")
 
 st.header("Gemini LLM Conversation Application")
@@ -34,4 +33,3 @@ st.subheader("The chat history is")
 
 for role, text in st.session_state['chat_history']:
     st.write(f"{role}: {text}")
-
