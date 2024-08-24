@@ -1,14 +1,7 @@
-from dotenv import load_dotenv
-load_dotenv()
-
 import streamlit as st
-import os 
-import google.generativeai as genai
+from model import get_model
 
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
-
-# Create a model to generate responses
-model = genai.GenerativeModel("gemini-pro")
+model = get_model()
 chat = model.start_chat(history=[])
 
 def get_response(question):
